@@ -1,0 +1,23 @@
+dict1={1:"cse",2:"it",3:"pt",4:" agri"}
+r=dict1.keys()#Return Keys
+print r#[1, 2, 3, 4]
+dict1.pop(3)#Remove element based on key
+print dict1#{1: 'cse', 2: 'it', 4: ' agri'}
+dict1["new"]="pp"
+print dict1#{1: 'cse', 2: 'it', 4: ' agri', 'new': 'pp'}
+res=dict1.values()#Return all values
+print res#['cse', 'it', ' agri', 'pp']
+
+res=dict1.popitem()#item is removed
+print res
+#from Keys()
+#update
+
+'''
+[1, 2, 3, 4]
+{1: 'cse', 2: 'it', 4: ' agri'}
+{1: 'cse', 2: 'it', 4: ' agri', 'new': 'pp'}
+['cse', 'it', ' agri', 'pp']
+(1, 'cse')
+
+'''
